@@ -19,11 +19,10 @@ export default class FollowerList extends React.Component {
     })
   }
   render() {
-    console.log('Followers', this.state.followers);
     return (
       <div>
         {this.state.followers.map((user, i) => {
-         return <FollowerCard user={user} />;
+         return <FollowerCard key={i} user={user} />;
         })}
       </div>
     );
