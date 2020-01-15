@@ -1,0 +1,51 @@
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #24292e;
+  height: 100%;
+}
+
+.Profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 4%;
+  margin: 10%;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+}
+.Profile a {
+  color: white;
+  text-decoration: none;
+}
+.Profile .profile {
+  display: flex;
+}
+
+.FollowersList {
+  text-align: center;
+}
+.FollowersList input {
+  width: 200px;
+  height: 25px;
+}
+
+.FollowerCard {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 4%;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+  margin-top: 8%;
+}
+.FollowerCard a {
+  color: white;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=App.css.map */
