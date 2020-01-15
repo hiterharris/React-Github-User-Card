@@ -1,7 +1,6 @@
 import React from 'react';
-import FollowerList from './FollowerList';
 import axios from 'axios';
-import { Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import '../App.css';
 
 export default class App extends React.Component {
