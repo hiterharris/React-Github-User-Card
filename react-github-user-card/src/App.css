@@ -25,6 +25,14 @@
   display: flex;
 }
 
+.FollowersList {
+  text-align: center;
+}
+.FollowersList input {
+  width: 200px;
+  height: 25px;
+}
+
 .FollowerCard {
   display: flex;
   align-items: center;

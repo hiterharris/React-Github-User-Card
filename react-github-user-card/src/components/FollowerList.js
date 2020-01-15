@@ -28,16 +28,11 @@ export default class FollowerList extends React.Component {
   }
 
   render() {
-    let filteredFollowers = this.state.followers.filter( (filter) => {
-      return filter.login.indexOf(this.state.searchText) !== -1;
-    });
-    // console.log(filteredFollowers);
-
     return (
-      <div>
+      <div className='FollowersList'>
         <input 
           type='text'
-          placeholder='search'
+          placeholder='Search'
           value={this.state.searchText}
           onChange={this.updateSearch}
         />
